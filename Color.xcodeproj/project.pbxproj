@@ -8,20 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		7B28063B2165230E00F9FE49 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B28063A2165230E00F9FE49 /* AppDelegate.swift */; };
-		7B28063D2165230E00F9FE49 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B28063C2165230E00F9FE49 /* ViewController.swift */; };
+		7B28063D2165230E00F9FE49 /* CrayonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B28063C2165230E00F9FE49 /* CrayonViewController.swift */; };
 		7B2806402165230E00F9FE49 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B28063E2165230E00F9FE49 /* Main.storyboard */; };
 		7B2806422165231000F9FE49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B2806412165231000F9FE49 /* Assets.xcassets */; };
 		7B2806452165231000F9FE49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B2806432165231000F9FE49 /* LaunchScreen.storyboard */; };
+		7B28064D216523D900F9FE49 /* CrayonColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B28064C216523D900F9FE49 /* CrayonColors.swift */; };
+		7B28064F2165242100F9FE49 /* CrayonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B28064E2165242100F9FE49 /* CrayonTableViewCell.swift */; };
+		7B2806512165282300F9FE49 /* Crayon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B2806502165282300F9FE49 /* Crayon.swift */; };
+		7B2806532165283D00F9FE49 /* CrayonTableViewCellDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B2806522165283D00F9FE49 /* CrayonTableViewCellDelegate.swift */; };
+		7B2806552165285C00F9FE49 /* CrayonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B2806542165285C00F9FE49 /* CrayonModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7B2806372165230E00F9FE49 /* Color.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Color.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B28063A2165230E00F9FE49 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7B28063C2165230E00F9FE49 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7B28063C2165230E00F9FE49 /* CrayonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrayonViewController.swift; sourceTree = "<group>"; };
 		7B28063F2165230E00F9FE49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7B2806412165231000F9FE49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7B2806442165231000F9FE49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7B2806462165231000F9FE49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B28064C216523D900F9FE49 /* CrayonColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrayonColors.swift; sourceTree = "<group>"; };
+		7B28064E2165242100F9FE49 /* CrayonTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrayonTableViewCell.swift; sourceTree = "<group>"; };
+		7B2806502165282300F9FE49 /* Crayon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Crayon.swift; sourceTree = "<group>"; };
+		7B2806522165283D00F9FE49 /* CrayonTableViewCellDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrayonTableViewCellDelegate.swift; sourceTree = "<group>"; };
+		7B2806542165285C00F9FE49 /* CrayonModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrayonModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +65,12 @@
 			isa = PBXGroup;
 			children = (
 				7B28063A2165230E00F9FE49 /* AppDelegate.swift */,
-				7B28063C2165230E00F9FE49 /* ViewController.swift */,
+				7B28063C2165230E00F9FE49 /* CrayonViewController.swift */,
+				7B28064E2165242100F9FE49 /* CrayonTableViewCell.swift */,
+				7B28064C216523D900F9FE49 /* CrayonColors.swift */,
+				7B2806502165282300F9FE49 /* Crayon.swift */,
+				7B2806522165283D00F9FE49 /* CrayonTableViewCellDelegate.swift */,
+				7B2806542165285C00F9FE49 /* CrayonModel.swift */,
 				7B28063E2165230E00F9FE49 /* Main.storyboard */,
 				7B2806412165231000F9FE49 /* Assets.xcassets */,
 				7B2806432165231000F9FE49 /* LaunchScreen.storyboard */,
@@ -135,8 +150,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7B28063D2165230E00F9FE49 /* ViewController.swift in Sources */,
+				7B2806532165283D00F9FE49 /* CrayonTableViewCellDelegate.swift in Sources */,
+				7B28063D2165230E00F9FE49 /* CrayonViewController.swift in Sources */,
+				7B2806552165285C00F9FE49 /* CrayonModel.swift in Sources */,
+				7B2806512165282300F9FE49 /* Crayon.swift in Sources */,
 				7B28063B2165230E00F9FE49 /* AppDelegate.swift in Sources */,
+				7B28064D216523D900F9FE49 /* CrayonColors.swift in Sources */,
+				7B28064F2165242100F9FE49 /* CrayonTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
